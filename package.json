@@ -1,0 +1,23 @@
+{
+  "name": "pw-cucumber-bdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:bdd": "cucumber-js -c cucumber.json",
+    "test:bdd:headed": "HEADLESS=false cucumber-js -c cucumber.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.0",
+    "@types/chai": "^5.2.3",
+    "chai": "^6.2.2",
+    "dotenv": "^17.2.3",
+    "playwright": "^1.58.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
